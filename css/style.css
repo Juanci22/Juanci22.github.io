@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, sans-serif; }
+
+header {
+  width: 100vw;
+  height: 18vh;
+  background-color: #c39738;
+  padding: 40px; }
+  header .img-mate {
+    height: 90px;
+    width: 100px;
+    display: block; }
+  header .titulo-principal {
+    font-size: 40px;
+    font-style: oblique;
+    text-align: left;
+    position: relative;
+    color: #7f4311; }
+  header nav {
+    font-size: 20px; }
+  header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ffff96;
+    line-height: 30px;
+    text-align: center; }
+  header li {
+    width: 100px;
+    display: inline-block; }
+  header a {
+    text-decoration: none;
+    display: block;
+    color: #050505; }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #361f00;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+  padding: 40px; }
+
+main main div p {
+  color: #ffff96; }
+
+main #indexmain {
+  width: 100vw; }
+
+main h2 {
+  color: #c39738; }
+
+main h5 {
+  color: #7f4311; }
+
+main .carousel-item {
+  height: 150vh; }
+
+main .img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto; }
+
+.img-mate {
+  height: 90px;
+  width: 100px;
+  display: block; }
+
+.pie-pagina {
+  width: 100%;
+  background-color: #c39738; }
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px; }
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.pie-pagina .grupo-1 .box figure {
+  width: 250px; }
+
+.pie-pagina .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px; }
+
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px; }
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #361f00;
+  text-align: center;
+  transition: all 300ms ease; }
+
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: coral; }
+
+.pie-pagina .grupo-2 {
+  background-color: #ffff96;
+  padding: 15px 10px;
+  text-align: center;
+  color: #5e4318; }
+
+.pie-pagina .grupo-2 small {
+  font-size: 15px; }
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px; } }
