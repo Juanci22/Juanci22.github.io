@@ -1,9 +1,10 @@
 
 
 header {
-    width: 100vw;
-    height: 18vh;
+    width: 92vw;
+    height: 22vh;
     background-color: $beige;
+    display: block;
     padding: 40px;
 
     .img-mate{
@@ -13,7 +14,7 @@ header {
     
     }
     .titulo-principal{
-        font-size: 40px;
+        font-size: 30px;
         font-style: oblique;
         text-align: left;
         position: relative;
@@ -34,16 +35,20 @@ header {
           li {
              width: 100px;
              display: inline-block;
+             font-family: 'Courgette', cursive;
        
-    
     }
 
             a {
                 text-decoration: none;
                 display:block;
-                color: rgb(5, 5, 5)
+                color: rgb(5, 5, 5);
+                font-family: 'Courgette', cursive;
     }
-    
+ 
+}
+h1 {
+    font-family: 'Lobster Two', cursive;
 }
 
 

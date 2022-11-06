@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta name="description" content="Integrantes de la banda Amargo por favor">
     <meta name="keywords"  content="TRIO, CANTO, GUITARRA, FOLCLORE, MURGA URUGUAYA, CORO">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two:ital@1&family=Norican&display=swap" rel="stylesheet">
     <title>Nosotros</title>
 
     <!-- Bootstrap CSS -->
@@ -22,45 +25,56 @@
 
 <body>
 
-  <!-- Comienzo del header -->
+<!-- Comienzo del header -->
 
-  <header>
+<header>
 
-    <!-- Barra de navegación -->
-    
-    <nav class="navbar navbar-expand-lg navbar-light style= background-color: #ffff96">
-    
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img class="img-mate" src="../assets/images/mate.png" alt="logomate"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div>
-            <h1 class="titulo-principal">Amargo por favor</h1>
-        </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mx-5 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/musica.html">Musica</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/calendario.html">Calendario</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
-              </li>
-            </ul>
-    
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <div>
+          <h1 class="titulo-principal">Amargo por favor</h1>
+      </div>
+      </div>
+      <div class="col">
+
+<!-- Barra de navegación -->
+
+        <nav class="navbar navbar-expand-lg navbar-light style= background-color: #ffff96">
+
+          <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img class="img-mate" src="../assets/images/mate.webp" alt="logomate"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mx-5 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/musica.html">Musica</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+      
+            </div>
           </div>
-        </div>
-      </nav>
-    <!-- Fin barra de navegacion -->
-        </header>
+        </nav>
+      </div>
+    </div>
+  </div>
+<!-- Fin barra de navegacion -->
 
-        <!-- Fin del header -->
+</header>
+
+<!-- Fin del header -->
 
         <!-- Comienzo del main -->
 
@@ -68,7 +82,12 @@
 
         <h2>Miembros</h2>
 
-<!-- **Carousel** -->
+        <div class="container">
+
+
+          <div class="row">
+            <div class="col">
+             <!-- **Carousel** -->
 
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -78,24 +97,50 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                <img src="../assets/images/darin.jpg" class="d-block w-100" alt="Darin">
+                <img src="../assets/images/page-nosotros/darin.webp" class="d-block w-100" alt="Darin">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Agustín "Darín" Cívico</h5>
-                  <p>Primera guitarra y voz.</p>
+                  <div class="name" class="row">
+                    <h5>Agustín "Darín" Cívico</h5>
+
+                  </div>
+                  
+                  <div class="desc" class="row">
+
+                    <p>Primera guitarra y voz barítono.</p>
+
+                  </div>
+
+                  
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="../assets/images/sak.jpg" class="d-block w-100" alt="Santiago">
+                <img src="../assets/images/page-nosotros/sak.webp" class="d-block w-100" alt="Santiago">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Santiago Castillo</h5>
-                  <p>Segunda guitarra y voz.</p>
+                  <div class="name" class="row">
+                    <h5>Santiago Castillo</h5>
+
+                  </div>
+                  
+                  <div class="desc" class="row">
+
+                    <p>Segunda guitarra y voz tenor.</p>
+
+                  </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="../assets/images/mati.jpg" class="d-block w-100" alt="Matias">
+                <img src="../assets/images/page-nosotros/mati.webp" class="d-block w-100" alt="Matias">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Matias Castillo</h5>
-                  <p>Voz.</p>
+                  <div class="name" class="row">
+                    <h5>Matías Castillo</h5>
+
+                  </div>
+                  
+                  <div class="desc" class="row">
+
+                    <p>Voz contratenor.</p>
+
+                  </div>
                 </div>
               </div>
             </div>
@@ -111,6 +156,81 @@
 
 <!-- **Carousel** -->
 
+<hr>
+
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+
+              <img class="imgbio" class="img-thumbnail" class="img-fluid" src="../assets/images/page-nosotros/darin2.webp" alt="darin2">
+
+              <div>
+
+                <article>
+
+                  <p class="bio">
+
+                    Agustín Cívico: con 25 años de edad (24 de Marzo de 1997) nacido y criado en la localidad de Belén de Escobar, al nordeste de la provincia de Buenos Aires, Argentina. Es el primer guitarrista del trío. Comenzó a incursionar en la guitarra a los 13 años de manera particular. A la edad de 18, una vez recibido del colegio secundario, empezó el profesorado de música con orientación en educación musical. A los 20 años ya dictaba sus primeras clases en algunos colegios tanto de Belén de Escobar como de la localidad de Campana. En 2019 ya con 22 años se recibió de docente de manera oficial e inició su camino en la tecnicatura en guitarra en el Conservatorio Superior de Música Juan José Castro, lugar donde continúa formándose como guitarrista hasta el día de hoy. Es el barítono del trío, aportando las notas mas graves en los coros y en sus propios momentos solistas.
+
+                  </p>
+
+                </article>
+
+              </div>
+
+              
+            </div>
+            <div class="col">
+
+              <img class="imgbio" class="img-thumbnail" class="img-fluid" src="../assets/images/page-nosotros/sak2.webp" alt="sak2">
+
+              <div>
+
+                <article>
+
+                  <p class="bio">
+
+                    Santiago Castillo: el mayor de los hermanos Castillo. Oriundo de la localidad de San Fernando, zona norte del Gran Buenos Aires, Argentina. Con 26 años de edad (27 de Marzo de 1996) es el segundo guitarrista y director vocal del trío. Hijo de madre argentina y padre uruguayo. Es el encargado de pensar los arreglos, fraseos y acomodar armónicamente los tres registros vocales. Es el tenor del trío, quien domina los registros medios y cuenta con una mayor potencia en la voz. Comenzó a tocar la guitarra de manera particular a la edad de 15 años, aunque en su núcleo familiar tiene una interesante variedad de músicos, lo que le permitió tener contacto con todo tipo de instrumentos musicales desde tempranas edades. Luego de estudiar guitarra durante dos años, continuó su camino de aprendizaje de manera independiente siempre nutriéndose de su entorno familiar. En el año 2019 fundó junto a su padre la murga estilo uruguayo "Aguantate la pelusa", de la cual es director escénico hasta la actualidad.
+
+                  </p>
+
+                </article>
+
+              </div>
+              
+            </div>
+            <div class="col">
+
+              <img class="imgbio" class="img-thumbnail" class="img-fluid" src="../assets/images/page-nosotros/mati2.webp" alt="mati2">
+
+              <div>
+
+                <article>
+
+                  <p class="bio">
+
+                    Matías Castillo: el menor de los hermanos Castillo. También nacido en San Fernando, con 22 años de edad (9 de Diciembre del 2000) es además el menor del trío. Estudió guitarra desde los 14 hasta los 16 años y, al igual que su hermano, continuó luego con su aprendizaje de manera independiente. Es el contratenor del trío, alcanzando notas más altas que un tenor y dándole contraste y potencia a sus interpretaciones.
+                    Junto a su hermano Santiago, tomó clases de canto durante dos años aprendiendo importantísimas técnicas de respiración y entonación. Ésto le permitió lucir mejor su voz y brindarle al trío una identidad lírica bien marcada. A pesar de no haber estudiado composición, su talento innato le permitió escribir canciones que no tardarán en sumarse al repertorio actual de Amargo por favor.
+
+                  </p>
+
+
+
+                </article>
+
+              </div>
+              
+            </div>
+          </div>
+
+          
+        </div>
+
+
+
       </main>
 
       <!-- Fin del main -->
@@ -122,7 +242,7 @@
               <div class="box">
                   <figure>
                       <a href="#">
-                      <img class="img-mate" src="../assets/images/mate.png" alt="logo mate">
+                      <img class="img-mate" src="../assets/images/mate.webp" alt="logo mate">
                       </a>
                   </figure> 
                </div>

@@ -3,6 +3,16 @@
     padding: 0;
     font-family: tahoma, sans-serif;
 }
+
+$primary: #d9b800;
+$danger: #ff4136;
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
+
+
 @import './variables';
 @import './header';
 @import './body';

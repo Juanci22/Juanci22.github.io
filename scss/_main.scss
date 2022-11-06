@@ -10,12 +10,31 @@ main {
     }
     h2 {
         color: $beige;
+        font-family: 'Norican', cursive;
     }
+
     h5 {
+        font-family: 'Norican', cursive;
+    }
+
+    p {
+        font-family: 'Courgette', cursive;
+    }
+    .name {
         color:$marronclaro;
+        background-color: $amarillo;
+        display: inline-block;
+
+    }
+    .desc {
+        background-color: $amarillo;
+        display:grid
+        
+
     }
     .carousel-item {
-        height: 150vh;
+        height: 65vh;
+        margin-top: 10px;
     
     }
     .img-fluid {
@@ -23,11 +42,81 @@ main {
         height: auto;
         display: block;
         margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
 
     }
+    .bio {
+        background-color: $amarillo;
+        font-family: 'Lobster Two', cursive;
+        font-size: larger;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8;
+        line-clamp: 8;
+        overflow: hidden;
+        cursor: pointer;               
+    }
+
+    .bio:hover {
+        display: block;
+        cursor: default;
+        
+        
+    }
+    .imgbio {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+
+    }
+
 }
 
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
 
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 700px;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
 
 
 
